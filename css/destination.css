@@ -1,0 +1,407 @@
+._sub_body .banner_shadow {
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+    top: 0;
+    background-color: rgba(49, 49, 49, 0.462);
+}
+
+._sub_body ._banner {
+    background-image: url(../../images/items/top5/austria.jpeg);
+    width: 100%;
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+._sub_body ._banner ._title {
+    color: aliceblue;
+    font-size: 5em;
+    z-index: 1;
+    font-family: Dancing Script;
+}
+
+._sub_body .content1 {
+    padding: 48px;
+}
+
+._sub_body .content1 .main_title,
+._sub_body .content1 .main_title1 {
+    color: rgb(17, 133, 234);
+    font-size: 2em;
+}
+._sub_body .content1 .main_title1 {
+    width: 100%;
+    text-align: center;
+}
+
+._sub_body .content1 .block {
+    padding-top: 24px;
+    line-height: 25px;
+}
+._sub_body .content1 .block1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+._sub_body .content1 .block2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+._sub_body .content1 .block1 .pera_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+._sub_body .content1 .block1 .block_pera {
+    width: 60%;
+    padding-top: 24px;
+    line-height: 25px;
+}
+._sub_body .content1 .block2 .block_pera {
+    width: 60%;
+    padding-top: 24px;
+    line-height: 25px;
+}
+._sub_body .content1 .block1 .image_row {
+    display: flex;
+    flex-direction: column;
+}
+._sub_body .content1 .block1 .image_row b {
+    font-family: Dancing Script;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: rgb(17, 133, 234);
+}
+._sub_body .content1 .block1 .image_row ._img_bar {
+    display: flex;
+}
+._sub_body .content1 .block1 .image_row ._img_bar img {
+    width: 200px;
+    padding: 0 12px;
+}
+._sub_body .content1 .block2 .flag_img {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 250px;
+}
+._sub_body .content1 .block1 .stay_img {
+    width: 25%;
+}
+
+._sub_body .content1 .frame_1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+._sub_body .content1 .frame_1 .block_info {
+    width: 70%;
+    padding-top: 24px;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+._sub_body .content1 .frame_1 .block_info .slot {
+    width: 100%;
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+._sub_body .content1 ._icon {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 500px) {
+    ._sub_body .content1 h3 {
+        font-size: 0.8em;
+        font-weight: 100;
+    }
+
+    ._sub_body .content1 p {
+        font-size: 0.5em;
+    }
+
+    ._sub_body .content1 ._icon {
+        width: 15px;
+        height: 15px;
+    }
+    
+}
+@media only screen and (min-width: 768px) and (max-width: 1450px) {
+    ._sub_body .content1 .block1,
+    ._sub_body .content1 .block2 {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    ._sub_body .content1 .block2 {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    ._sub_body .content1 .block1 .block_pera {
+        width: 60%;
+    }
+    ._sub_body .content1 .block2 .flag_img {
+        margin-top: 24px;
+        width: 400px;
+        height: 200px;
+    }
+    ._sub_body .content1 .block1 .stay_img {
+        width: 30%;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+    ._sub_body .content1 .frame_1 .block_info {
+        width: 100%;
+    }
+    ._sub_body .content1 .block1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* align-items: center; */
+    }
+    ._sub_body .content1 .block2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    ._sub_body .content1 .block1 .block_pera {
+        width: 95%;
+    }
+    ._sub_body .content1 .block2 .block_pera {
+        width: 95%;
+    }
+    
+    ._sub_body .content1 .block2 .flag_img {
+        margin-top: 24px;
+        width: 300px;
+        height: 150px;
+    }
+    ._sub_body .content1 .block1 .stay_img {
+        width: 50%;
+    }
+    ._sub_body .content1 .block1 .pera_row {
+        flex-direction: column;
+    }
+    ._sub_body .content1 .block1 .image_row ._img_bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    ._sub_body .content1 .block1 .image_row ._img_bar img {
+        padding: 12px 12px;
+        width: 70%;
+    }
+}
+
+._sub_body .content1 .block_map {
+    width: 100%;
+    padding: 12px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+._sub_body .content1 .block_map .map_pera {
+    width: 50%;
+    height: 300px;
+    line-height: 30px;
+}
+
+._sub_body .content1 .block_map .map_link {
+    width: 50%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 950px) {
+    ._sub_body .content1 .block_map {
+        width: 100%;
+        padding: 12px 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    ._sub_body .content1 .block_map .map_pera {
+        width: 100%;
+        height: 100%;
+    }
+
+    ._sub_body .content1 .block_map .map_link {
+        padding: 12px 0;
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+    ._sub_body .content1 .block_map {
+        width: 100%;
+        padding: 12px 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    ._sub_body .content1 .block_map .map_pera {
+        width: 100%;
+        height: 100%;
+    }
+
+    ._sub_body .content1 .block_map .map_link {
+        padding: 12px 0;
+        width: 100%;
+        height: 300px;
+    }
+}
+
+._sub_body .content2 {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+._sub_body .content2 .background_img {
+    width: 80%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./../images/destinations/austria_info.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+._sub_body .content2 .background_img ._welcome {
+    color: #ffffff;
+    font-size: 2.5em;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 950px) {
+    ._sub_body .content1 {
+        padding: 48px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+    ._sub_body .content1 {
+        padding: 24px;
+    }
+}
+
+.hotel_review {
+    width: 100%;
+    height: 100%;
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hotel_review .block {
+    flex: 1 1 23%;
+    max-width: 23%;
+    margin: 1%;
+}
+
+.hotel_review .block .hotel_frame {
+    width: 100%;
+}
+
+.hotel_review .block .hotel_frame ._img {
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    width: 100%;
+    height: 250px;
+}
+
+.hotel_review .block .hotel_frame .hotel_body {
+    padding: 3px 6px;
+    border-right: 1.5px solid rgba(160, 160, 160, 0.784);
+    border-left: 1.5px solid rgba(160, 160, 160, 0.784);
+    border-bottom: 1.5px solid rgba(160, 160, 160, 0.784);
+}
+
+.hotel_review .block .hotel_frame .hotel_body .hotel_name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hotel_review .block .hotel_frame .hotel_body .hotel_name .star-rating {
+    color: #fcd703;
+    margin: 0 3px;
+    font-size: 1.2em;
+}
+
+.hotel_review .block .hotel_frame .hotel_body p {
+    font-size: 0.8em;
+    margin: 0;
+    padding: 12px 6px;
+}
+
+.hotel_review .block .hotel_frame .hotel_body button {
+    padding: 12px 24px;
+    border: 1px solid rgb(17, 133, 234);
+    width: 100%;
+    background: none;
+    margin-bottom: 6px;
+    color: rgb(17, 133, 234);
+}
+
+@media only screen and (min-width: 500px) and (max-width: 950px) {
+    .hotel_review .block {
+        flex: 1 1 48%;
+        max-width: 48%;
+        margin: 1%;
+        padding-top: 24px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 500px) {
+    .hotel_review .block {
+        flex: 1 1 98%;
+        max-width: 98%;
+        margin: 1%;
+        padding-top: 24px;
+    }
+}
+
+.hotel_frame {
+    overflow: hidden;
+}
+
+.block .hotel_frame ._img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+.block .hotel_frame:hover ._img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}

@@ -1,0 +1,114 @@
+:root {
+    --primary-color: #010712;
+    --secondary-color: #818386;
+    --bg-color: #fcfdfd;
+    --button-color: rgb(17, 133, 234);
+    --h1-color: #3f444c;
+}
+._sub_body .banner_shadow {
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+    top: 0;
+    background-color: rgba(49, 49, 49, 0.462);
+}
+
+._sub_body ._banner {
+    background-image: url(../images/guide/covid1.jpg);
+    width: 100%;
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+._sub_body ._banner ._title {
+    color: aliceblue;
+    font-size: 5em;
+    z-index: 1;
+    font-family: Dancing Script;
+}
+
+._sub_body .content1,
+._sub_body .content2 {
+    padding:48px;
+    display: flex;
+    align-items: center;
+}
+._sub_body .content1 .block1 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+._sub_body .content1 .block1 .main_title {
+    color: rgb(17, 133, 234);
+    font-size: 2em;
+}
+._sub_body .content1 .block1 ._pera {
+    line-height: 25px;
+    font-size: 1em;
+}
+._sub_body .content1 .block1 ._pera span {
+    line-height: 25px;
+    font-size: 1em;
+    font-weight: bold;
+}
+._sub_body .content1 .block1 ._pera ._wraning {
+    line-height: 25px;
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(222, 172, 35);
+    text-decoration: none;
+}
+._sub_body .content1 .block1 ._pera ._wraning1 {
+    line-height: 25px;
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(163, 121, 3);
+    text-decoration: none;
+}
+._sub_body .content1 .block1 ._pera ._blue {
+    line-height: 25px;
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(25, 37, 207);
+    text-decoration: none;
+}
+._sub_body .content1 .block2 {
+    display: flex;
+    justify-content: end;
+    width: 40%;
+}
+._sub_body .content1 .block2 ._image {
+    width: 100%;
+}
+
+._sub_body .content2 {
+    flex-direction: row-reverse;
+    align-items: center;
+}
+._sub_body .content2 .block2 {
+    justify-content: start;
+}
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+    ._sub_body .content1 {
+        padding: 24px 48px;
+        flex-direction: column;
+    }
+    ._sub_body .content1 .block1 {
+        width: 100%;
+    }
+    ._sub_body .content1 .block2 {
+        width: 100%;
+        justify-content: center;
+    }
+    ._sub_body .content1 .block1 .main_title {
+        font-size: 1.4em;
+    }
+}
+
+
